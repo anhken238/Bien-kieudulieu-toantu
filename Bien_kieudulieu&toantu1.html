@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>NguyenDucAnh</title>
+</head>
+<body>
+	<script>
+		let inputDiemly, inputDiemhoa, inputDiemsinh;
+		inputDiemly = prompt("Nhập Điểm Lý")
+		inputDiemhoa = prompt("Nhập Điểm Hóa")
+		inputDiemsinh = prompt("Nhập Điểm Sinh")
+		dl = parseFloat(inputDiemly);
+		dh = parseFloat(inputDiemhoa);
+		ds = parseFloat(inputDiemsinh);
+		DTB = ((dl+dh+ds)/3);
+		S = (dl+dh+ds);
+		document.write("Điểm Trung Bình là " +DTB);
+		document.write("<br/>")
+		document.write("Tổng Điểm Ba Môn là " +S);
+	</script>
+</body>
+</html>
